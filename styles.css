@@ -131,4 +131,5 @@ footer ul {
   color: antiquewhite;
   position: relative;
   top: 30px;
+  bottom: none;
 }
