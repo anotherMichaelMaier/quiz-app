@@ -39,6 +39,8 @@ header {
   text-decoration: none;
   text-shadow: 0px -1px 0px #2f7066;
   color: antiquewhite;
+  position: fixed;
+  z-index: 1;
 }
 
 .questioncard {
@@ -48,6 +50,13 @@ header {
   background-color: bisque;
   margin: 20px;
   text-align: center;
+}
+.questioncard:first-child {
+  margin-top: 100px;
+}
+
+.questioncard:last-child {
+  margin-bottom: 100px;
 }
 
 .questions {
